@@ -12,7 +12,7 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
+     border: 5px dotted blue;
      padding: 20px;
 }
 
@@ -21,9 +21,14 @@ body {
 	background: none;
 }
 
+.imgTest {
+     border: 5px black;
+}
+
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
+     background: url("../images/leaves.jpg");
+     background-size: 100% 100%;
      opacity: 0.2;
      top: 0;
      left: 0;
@@ -31,4 +36,11 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.project {
+    margin-left: 20px;
+    background-color: #deebf7;
+    padding: 20px;
+    width: 525px;
 }
